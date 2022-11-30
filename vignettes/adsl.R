@@ -90,10 +90,12 @@ adsl <- dm %>%
          SAFFL = case_when(ITTFL == 'Y' & !(is.na(TRTSDT)) ~ 'Y',
                            TRUE ~ 'N')) %>%
   derive_vars_merged(
-    dataset_add = qs_eff,
-    new_vars = vars(EFFFL = EFFFL),
+    dataset_add = (qs_eff %>% 
+                     distinct(STUDYID, USUBJID, .keep_all = TRUE)),
+    new_vars = vars(QSTESTCD),
     by_vars = vars(STUDYID, USUBJID)
   ) %>%
-  mutate(EFFFL = case_when(is.na(EFFFL) ~ 'N',
-                           TRUE ~ EFFFL))
+  mutate(EFFFL = case_when(is.na(QSTESTCD) ~ 'N',
+                           TRUE ~ 'Y')) %>% 
+  select(-QSTESTCD)
 
