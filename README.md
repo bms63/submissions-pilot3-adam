@@ -21,7 +21,7 @@ The [RConsortium/submissions-pilot3-adam](https://github.com/RConsortium/submiss
 
  - To be added when available
 
-## Running Environment 
+## Running  Environment 
 
 The project is developed and tested in the environment below:
 
