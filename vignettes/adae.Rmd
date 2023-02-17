@@ -288,8 +288,12 @@ adae %>%
 ## Step 5: Data Output
 
 ```{r}
+# View data
+#---------------------------------------------------------------------------------------
+library(admiraldev)
+
 adae <- read_xpt("/cloud/project/submission/datasets/adae.xpt")
-head(adae)
+dataset_vignette(adae)
 ```
 
 # qc_adae.R
