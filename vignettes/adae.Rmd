@@ -35,8 +35,7 @@ library(metacore)
 library(metatools)
 library(haven)
 
-# Propitiatory Package, please refer appendix of ADRG to install
-# library(pilot3wrappers)
+# Propitiatory Package, please refer appendix of ADRG to install - library(pilot3wrappers)
 ```
 
 # adae.R
@@ -70,10 +69,11 @@ adsl <- convert_blanks_to_na(adsl)
 # Read in specifications from define
 #---------------------------------------------------------------------------------------
 ## placeholder for origin=predecessor, use metatool::build_from_derived()
-metacore <- spec_to_metacore("/cloud/project/adam/TDF_ADaM - Pilot 3 Team updated.xlsx"
-                             , where_sep_sheet = FALSE
-                             , quiet = T)
-adae_spec <- metacore %>% 
+metacore <- spec_to_metacore("/cloud/project/adam/TDF_ADaM - Pilot 3 Team updated.xlsx",
+  where_sep_sheet = FALSE,
+  quiet = T
+)
+adae_spec <- metacore %>%
   select_dataset("ADAE") # Get the specifications for the dataset we are currently building
 
 
@@ -305,7 +305,7 @@ dataset_vignette(adae)
 library(diffdf)
 
 
-# QC/Check against original TDF ADAE dataset 
+# QC/Check against original TDF ADAE dataset
 # -------------------------------------------#
 adae <- read_xpt(file.path("/cloud/project/submission", "datasets", "adae.xpt")) %>%
   convert_blanks_to_na()
@@ -313,7 +313,7 @@ adae_orig <- read_xpt(file.path("/cloud/project/adam", "adae.xpt")) %>%
   convert_blanks_to_na()
 
 
-# Compare 
+# Compare
 #---------#
 diffdf(adae, adae_orig, keys = c("STUDYID", "USUBJID", "AESEQ"))
 ```
