@@ -178,6 +178,13 @@
         "sys"
       ]
     },
+      "arsenal": {
+      "Package": "arsenal",
+      "Version": "3.6.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "e16d280d498f4d8f2316a01dc3eed9b6"
+    },
     "assertthat": {
       "Package": "assertthat",
       "Version": "0.2.1",
