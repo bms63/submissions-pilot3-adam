@@ -69,12 +69,6 @@
 <li>
   <a href="news/index.html">Changelog</a>
 </li>
-<!-- start dropdown for versions --> <li class="nav-item dropdown">
-        <a href="#" class="nav-link dropdown-toggle"
-          data-bs-toggle="dropdown" role="button"
-          aria-expanded="false" aria-haspopup="true"
-          id="dropdown-versions">Versions</a> <div class="dropdown-menu" aria-labelledby="dropdown-versions"> <a class="dropdown-item" data-toggle="tooltip" title="" href="https://RConsortium.github.io/submissions-pilot3-adam/main">main</a> </div></li>
-<!-- end dropdown for versions -->
       </ul>
 <ul class="nav navbar-nav navbar-right"></ul>
 </div>
@@ -101,7 +95,9 @@
 <div class="section level2">
 <h2 id="fda-response">FDA Response<a class="anchor" aria-label="anchor" href="#fda-response"></a>
 </h2>
-<ul><li>To be added when available</li></ul>
+<ul>
+<li>To be added when available</li>
+</ul>
 </div>
 <div class="section level2">
 <h2 id="running-environment">Running Environment<a class="anchor" aria-label="anchor" href="#running-environment"></a>
@@ -149,9 +145,14 @@
 <div class="section level3">
 <h3 id="startup-file">Startup file<a class="anchor" aria-label="anchor" href="#startup-file"></a>
 </h3>
-<ul><li>
-<code>.Rprofile</code>: Project startup file to setup running environment including R version, repository, folder path etc.<ul><li>We further use <code>inst/startup.R</code> and <code>R/zzz.R</code> to allow the startup file is executed while running. <code><a href="https://devtools.r-lib.org/reference/load_all.html" class="external-link">devtools::load_all()</a></code> and RStudio build panel.</li></ul>
-</li></ul>
+<ul>
+<li>
+<code>.Rprofile</code>: Project startup file to setup running environment including R version, repository, folder path etc.
+<ul>
+<li>We further use <code>inst/startup.R</code> and <code>R/zzz.R</code> to allow the startup file is executed while running. <code><a href="https://devtools.r-lib.org/reference/load_all.html" class="external-link">devtools::load_all()</a></code> and RStudio build panel.</li>
+</ul>
+</li>
+</ul>
 </div>
 <div class="section level3">
 <h3 id="results">Results<a class="anchor" aria-label="anchor" href="#results"></a>
@@ -167,22 +168,28 @@
 <h3 id="reproducibility">Reproducibility<a class="anchor" aria-label="anchor" href="#reproducibility"></a>
 </h3>
 <p>The original code is prepared and executed on Ubuntu 20.04.3 LTS. We use <code>renv</code> to ensure reproducibility for R version and R package version.</p>
-<ul><li>
-<code>renv.lock</code> and <code>renv/</code> folder: R package management using <code>renv</code> package. (<a href="https://rstudio.github.io/renv/articles/renv.html" class="external-link">Introduction</a>)</li></ul>
+<ul>
+<li>
+<code>renv.lock</code> and <code>renv/</code> folder: R package management using <code>renv</code> package. (<a href="https://rstudio.github.io/renv/articles/renv.html" class="external-link">Introduction</a>)</li>
+</ul>
 </div>
 <div class="section level3">
 <h3 id="utilities">Utilities<a class="anchor" aria-label="anchor" href="#utilities"></a>
 </h3>
-<ul><li>
-<code>_pkgdown.yml</code>: <a href="https://pkgdown.r-lib.org/articles/pkgdown.html" class="external-link">pkgdown</a> configuration file. test</li></ul>
+<ul>
+<li>
+<code>_pkgdown.yml</code>: <a href="https://pkgdown.r-lib.org/articles/pkgdown.html" class="external-link">pkgdown</a> configuration file. test</li>
+</ul>
 </div>
 </div>
 <div class="section level2">
 <h2 id="pilot-3-team">Pilot 3 Team<a class="anchor" aria-label="anchor" href="#pilot-3-team"></a>
 </h2>
-<div class="section level4"><h4 id="stand-up-minutes">
+<div class="section level4">
+<h4 id="stand-up-minutes">
 <a href="https://github.com/RConsortium/submissions-pilot3-adam/blob/main/meeting_minutes/meeting_minutes.pdf" class="external-link">‘STAND-UP’ MINUTES</a><a class="anchor" aria-label="anchor" href="#stand-up-minutes"></a>
-</h4></div>
+</h4>
+</div>
 <div class="section level4">
 <h4 id="leads">Leads<a class="anchor" aria-label="anchor" href="#leads"></a>
 </h4>
