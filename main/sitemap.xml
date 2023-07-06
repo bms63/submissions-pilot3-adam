@@ -1,78 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/404.html</loc>
+    <loc>https://rconsortium.github.io/submissions-pilot3-adam/main/404.html</loc>
   </url>
   <url>
-    <loc>/LICENSE.html</loc>
+    <loc>https://rconsortium.github.io/submissions-pilot3-adam/main/LICENSE.html</loc>
   </url>
   <url>
-    <loc>/articles/adrg-prepare.html</loc>
+    <loc>https://rconsortium.github.io/submissions-pilot3-adam/main/articles/adrg-prepare.html</loc>
   </url>
   <url>
-    <loc>/articles/index.html</loc>
+    <loc>https://rconsortium.github.io/submissions-pilot3-adam/main/articles/conf_phuse_sde_london.html</loc>
   </url>
   <url>
-    <loc>/articles/tlf-demographic.html</loc>
+    <loc>https://rconsortium.github.io/submissions-pilot3-adam/main/articles/index.html</loc>
   </url>
   <url>
-    <loc>/articles/tlf-efficacy.html</loc>
+    <loc>https://rconsortium.github.io/submissions-pilot3-adam/main/articles/tlf-demographic.html</loc>
   </url>
   <url>
-    <loc>/articles/tlf-kmplot.html</loc>
+    <loc>https://rconsortium.github.io/submissions-pilot3-adam/main/articles/tlf-efficacy.html</loc>
   </url>
   <url>
-    <loc>/articles/tlf-primary.html</loc>
+    <loc>https://rconsortium.github.io/submissions-pilot3-adam/main/articles/tlf-kmplot.html</loc>
   </url>
   <url>
-    <loc>/authors.html</loc>
+    <loc>https://rconsortium.github.io/submissions-pilot3-adam/main/articles/tlf-primary.html</loc>
   </url>
   <url>
-    <loc>/index.html</loc>
+    <loc>https://rconsortium.github.io/submissions-pilot3-adam/main/authors.html</loc>
   </url>
   <url>
-    <loc>/news/index.html</loc>
+    <loc>https://rconsortium.github.io/submissions-pilot3-adam/main/index.html</loc>
   </url>
   <url>
-    <loc>/reference/efficacy_models.html</loc>
+    <loc>https://rconsortium.github.io/submissions-pilot3-adam/main/news/index.html</loc>
   </url>
   <url>
-    <loc>/reference/fmt_ci.html</loc>
-  </url>
-  <url>
-    <loc>/reference/fmt_est.html</loc>
-  </url>
-  <url>
-    <loc>/reference/fmt_num.html</loc>
-  </url>
-  <url>
-    <loc>/reference/fmt_pval.html</loc>
-  </url>
-  <url>
-    <loc>/reference/format_dcsreas.html</loc>
-  </url>
-  <url>
-    <loc>/reference/format_eosstt.html</loc>
-  </url>
-  <url>
-    <loc>/reference/format_sitegr1.html</loc>
-  </url>
-  <url>
-    <loc>/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>/reference/nest_rowlabels.html</loc>
-  </url>
-  <url>
-    <loc>/reference/num_fmt.html</loc>
-  </url>
-  <url>
-    <loc>/reference/pad_row.html</loc>
-  </url>
-  <url>
-    <loc>/reference/pilot3-package.html</loc>
-  </url>
-  <url>
-    <loc>/reference/round_sas.html</loc>
+    <loc>https://rconsortium.github.io/submissions-pilot3-adam/main/reference/index.html</loc>
   </url>
 </urlset>
